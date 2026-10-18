@@ -61,15 +61,14 @@ The dashboard shows a live density reading and signal states. In the screenshots
 <img width="1897" height="1165" alt="Screenshot 2026-10-14 211526" src="https://github.com/user-attachments/assets/7577ac69-1f6b-4af4-ab29-3e076ad79be7" />
 <img width="1919" height="1179" alt="Screenshot 2026-10-14 211426" src="https://github.com/user-attachments/assets/cc94fe88-3987-43bf-af79-f2ff9edf0c0b" />
 
+## Blynk Dashboard
+<img width="1541" height="962" alt="Screenshot 2026-10-18 183026" src="https://github.com/user-attachments/assets/cddae20a-6853-4778-8222-5d785858dc20" />
+<img width="1628" height="957" alt="Screenshot 2026-10-18 183128" src="https://github.com/user-attachments/assets/2365c1d5-846e-4717-a859-e6966d4d68db" />
+
+
 ## Notes
 
 This project is a prototype for adaptive traffic management. It demonstrates how image-based vehicle counting can be used to make traffic lights respond to actual road conditions instead of fixed cycles.
 
-## Future improvements
 
-- Support more than two lanes
-- Add real-time queue length estimation
-- Improve detection robustness in different lighting conditions
-- Use cloud or local database logging for traffic history
-- Add a more advanced controller algorithm for signal optimization
 
