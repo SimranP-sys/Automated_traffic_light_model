@@ -1,13 +1,13 @@
-#define BLYNK_TEMPLATE_ID "TMPL3V5WOMIDO"
+#define BLYNK_TEMPLATE_ID "O"
 #define BLYNK_TEMPLATE_NAME "Traffic Light"
-#define BLYNK_AUTH_TOKEN "QhGZeAeyMK21RWd3NBwgWnXnBoQmFp1C"
+#define BLYNK_AUTH_TOKEN ""
 #include <SevSeg.h>
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
 
 
-char ssid[] = "Noname";
-char pass[] = "error404";
+char ssid[] = "No";
+char pass[] = "e";
 
 BlynkTimer timer;
 SevSeg sevseg;
