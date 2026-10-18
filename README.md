@@ -2,6 +2,8 @@
 
 A smart traffic-light control project that adjusts signal timing based on real-time traffic density. The system combines computer vision, a microcontroller, and a mobile dashboard to detect vehicle flow and switch the traffic lights automatically.
 
+Attached files one.py and one.ino are python and arduino ide codes respectively.
+
 ## Overview
 
 This project simulates a traffic junction where signal timing changes according to traffic pressure rather than fixed intervals. A camera captures the road, a Python script analyzes the scene using OpenCV, and the result is sent to an ESP32 controller that drives the traffic lights and updates a Blynk dashboard.
