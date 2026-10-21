@@ -1,4 +1,4 @@
-# Trafficlight-
+# Traffic light model
 
 A smart traffic-light control project that adjusts signal timing based on real-time traffic density. The system combines computer vision, a microcontroller, and a mobile dashboard to detect vehicle flow and switch the traffic lights automatically.
 
@@ -21,7 +21,8 @@ Instead of using a fixed timer for all traffic conditions, this project uses liv
 
 ## Circuit diagram
 
-<img width="1408" height="768" alt="ckt diagram" src="https://github.com/user-attachments/assets/6f14e194-35d2-4b83-8beb-c3f0a6a7f14e" />
+<img width="1208" height="668" alt="ckt diagram" src="https://github.com/user-attachments/assets/ea12e1a5-7422-4684-a2e9-b0d37a4f2a86" />
+
 
 ## Working concept
 
