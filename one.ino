@@ -1,13 +1,14 @@
-#define BLYNK_TEMPLATE_ID "O"
+
+#define BLYNK_TEMPLATE_ID "TMPL3V5WOMIDO"
 #define BLYNK_TEMPLATE_NAME "Traffic Light"
-#define BLYNK_AUTH_TOKEN ""
+#define BLYNK_AUTH_TOKEN "QhGZeAeyMK21RWd3NBwgWnXnBoQmFp1C"
 #include <SevSeg.h>
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
 
 
-char ssid[] = "No";
-char pass[] = "e";
+char ssid[] = "Noname";
+char pass[] = "error404";
 
 BlynkTimer timer;
 SevSeg sevseg;
@@ -72,12 +73,12 @@ void loop() {
   unsigned long now = millis();
   unsigned long duration;
 
-  if (phase == 0)
-    duration = (traffic == 'H') ? 9000 : 5000;
-  else if (phase == 1)
-    duration = 2000;
-  else
-    duration = 3000;
+ if (phase == 0)
+  duration = (traffic == 'H') ? 9000 : 5000;
+else if (phase == 1)
+  duration = 2000;
+else
+  duration = (traffic == 'H') ? 3000 : 7000;
 
   if (now - previousTime >= duration) {
     previousTime = now;
@@ -92,7 +93,7 @@ void loop() {
   digitalWrite(yellow2, LOW);
   digitalWrite(red2, phase != 2);
 
-  if (phase == 0) {
+  if (phase == 0 || phase == 2) {
     int remaining =
       (duration - (millis() - previousTime) + 999) / 1000;
 
